@@ -1757,19 +1757,6 @@ meth:lassmassspectrometry
   skos:notation "LA-SS-MS" ;
   skos:prefLabel "Laser ablation split stream mass spectrometry "@en ;
 .
-meth:lecofurnaceanalysis
-  rdf:type skos:Concept ;
-  dcterm:source <https://w3id.org/geochem/1.0/agent/georoc> ;
-  dcterm:source "https://www.element.com/materials-testing-services/chemical-analysis-labs/leco-analysis" ;
-  rdfs:isDefinedBy meth:method ;
-  rdfs:label "LECO furnace analysis"@en ;
-  skos:altLabel "LECO FURNACE"@en ;
-  skos:broader meth:infraredspectrometry ;
-  skos:definition "LECO analysis uses infrared absorption and thermal conductivity to measure combustion gases from sample. This process determines the presence and concentration of carbon, sulfur, oxygen, nitrogen or hydrogen. LECO analysis converts the elements from a sample into their oxidized form by utilizing either the gas fusion method (Hydrogen, Nitrogen, and Oxygen) or the combustion method (Carbon and Sulfur). (https://www.element.com/materials-testing-services/chemical-analysis-labs/leco-analysis)"@en ;
-  skos:inScheme meth:method ;
-  skos:notation "LECO" ;
-  skos:prefLabel "LECO furnace analysis"@en ;
-.
 meth:liquidchromatographyanalysis
   rdf:type skos:Concept ;
   dcterm:source <https://w3id.org/geochem/1.0/agent/georoc> ;
