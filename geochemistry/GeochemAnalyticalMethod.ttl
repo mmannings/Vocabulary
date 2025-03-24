@@ -134,20 +134,7 @@ meth:alphaparticlecounting
   skos:notation "ALPHA" ;
   skos:prefLabel "Alpha particle counting"@en ;
 .
-meth:alphaparticlespectrometry
-  rdf:type skos:Concept ;
-  dcterm:source <https://w3id.org/geochem/1.0/agent/georoc> ;
-  dcterm:source "https://en.wikipedia.org/wiki/Alpha-particle_spectroscopy" ;
-  rdfs:isDefinedBy meth:method ;
-  rdfs:label "Alpha particle spectrometry"@en ;
-  skos:altLabel "Alpha spectrometry"@en ;
-  skos:altLabel "ISOTOPE-DILUTION ALPHA-SPECTROMETRY"@en ;
-  skos:broader meth:particlespectrometry ;
-  skos:definition "Analysis of the energy of alpha particles emitted by a radioactive nuclide that is an alpha emitter. As emitted alpha particles are mono-energetic (i.e. not emitted with a spectrum of energies, such as beta decay) with energies often distinct to the decay they can be used to identify which radionuclide they originated from. (https://en.wikipedia.org/wiki/Alpha-particle_spectroscopy)"@en ;
-  skos:inScheme meth:method ;
-  skos:notation "ALPHA-S" ;
-  skos:prefLabel "Alpha particle spectrometry"@en ;
-.
+
 meth:alpharecoiltrackcounting
   rdf:type skos:Concept ;
   dcterm:source <https://doi.org/10.1016/S0009-2541(99)00185-0> ;
